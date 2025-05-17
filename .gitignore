@@ -1,1 +1,10 @@
-venv/
+# Python-related
+__pycache__/
+*.pyc
+
+# Machine learning artifacts
+model/
+scaler/
+
+# Datasets 
+data/

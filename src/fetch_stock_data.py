@@ -1,7 +1,7 @@
 import yfinance as yf
 import pandas as pd
 
-def fetch_stock_data(ticker="AAPL", period="5y", interval="1d", save_path="data/data.csv"):
+def fetch_stock_data(ticker="AAPL", period="5y", interval="1d", save_path="./data/data.csv"):
     
     # Downloads historical data
     data_frame = yf.download(ticker, period=period, interval=interval)
